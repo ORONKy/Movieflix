@@ -113,9 +113,11 @@ img.card-background{
     right: 0;
     width: 300px;
     height: 400px;
+    border-radius:  0.7em;
   }
   div.card{
     width: 300px; height: 400px;
+    border-radius: 0.7em;
   }
   div.title-container{
     height: 10%;
@@ -123,15 +125,16 @@ img.card-background{
     position: absolute;
     font-size: 1em;
     background-color: rgba(10, 10, 10, 0.116);
-    padding: auto;
+    padding: 1px;
     vertical-align: middle;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
   }
   div.title-container h3{
     top: 0;
     width: 100%;
     color: whitesmoke;
-    margin: auto;
-    
+    margin-top: 0.5em;
   }
 
 /*Card STack*/
@@ -144,7 +147,16 @@ img.card-background{
 }
 
 #viewport li {
-    list-style: none; background: #fff; border-radius: 5px; position: absolute; top: 0; left: 0; box-shadow: 0 0 2px rgba(0,0,0,.2), 1px 1px 1px rgba(0,0,0,.2); border: 10px solid #ECECEC; box-sizing: border-box; cursor: default;
+    list-style: none;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none; 
+    cursor: default;
+    border-radius: 0.7em;
+    
+
 }
 
 /*Home*/
