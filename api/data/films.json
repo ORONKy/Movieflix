@@ -1,0 +1,14 @@
+{
+    "films":[
+        {
+            "title": "hary potter",
+            "id": 1,
+            "img": "none"
+        },
+        {
+            "title": "aschenpudel",
+            "id": 2,
+            "img": "none"
+        }
+    ]
+}

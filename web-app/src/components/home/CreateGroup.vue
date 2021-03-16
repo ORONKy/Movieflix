@@ -28,11 +28,14 @@ export default {
     const groupLink = computed(()=>"localhost/play/group-"+props.groupid)
 
     const createGroup =()=>{
-        console.log("in")
+        const {result, err, load} = createNewGroup()
+        console.log(load());
+        if(err == null){
         emit('groupCreated')
         console.log(props.groupCreated)
-        emit("updateGroupId",createNewGroup())
+        emit("updateGroupId", result)
         console.log(props.groupid)
+        }
     }
 
     
